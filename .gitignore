@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Mango.MessageBus/MessageBus.cs
+/Mango.Services.OrderAPI/appsettings.json
+/Mango.Services.EmailAPI/appsettings.json
