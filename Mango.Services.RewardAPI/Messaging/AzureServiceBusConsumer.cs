@@ -1,11 +1,10 @@
-﻿using System.Text;
-using Azure.Messaging.ServiceBus;
-using Mango.Services.EmailAPI.Services;
+﻿using Azure.Messaging.ServiceBus;
 using Mango.Services.RewardAPI.Message;
-using Mango.Services.RewardAPI.Messaging;
+using Mango.Services.RewardAPI.Services;
 using Newtonsoft.Json;
+using System.Text;
 
-namespace Mango.Services.EmailAPI.Messaging
+namespace Mango.Services.RewardAPI.Messaging
 {
     public class AzureServiceBusConsumer : IAzureServiceBusConsumer
     {
