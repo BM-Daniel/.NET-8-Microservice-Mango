@@ -74,6 +74,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+//app.UseSwagger();
+//app.UseSwaggerUI(c =>
+//{
+//    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Cart API");
+//    c.RoutePrefix = string.Empty;
+//});
+
 app.UseHttpsRedirection();
 
 app.UseAuthentication();
